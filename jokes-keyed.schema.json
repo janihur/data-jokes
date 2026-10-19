@@ -1,0 +1,48 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.com/schemas/jokes-keyed.schema.json",
+  "title": "Dad jokes (keyed)",
+  "description": "Schema for jokes-keyed.json: a wrapper object with the jokes keyed by id.",
+  "type": "object",
+  "properties": {
+    "title": {
+      "type": "string",
+      "minLength": 1
+    },
+    "count": {
+      "description": "Number of jokes in the jokes object.",
+      "type": "integer",
+      "minimum": 0
+    },
+    "jokes": {
+      "description": "Jokes keyed by their running number.",
+      "type": "object",
+      "patternProperties": {
+        "^[1-9][0-9]*$": { "$ref": "#/$defs/joke" }
+      },
+      "additionalProperties": false
+    }
+  },
+  "required": ["title", "count", "jokes"],
+  "additionalProperties": false,
+  "$defs": {
+    "joke": {
+      "type": "object",
+      "properties": {
+        "date": {
+          "description": "Date the joke was told (ISO 8601).",
+          "type": "string",
+          "format": "date",
+          "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+        },
+        "text": {
+          "description": "The joke text.",
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "required": ["date", "text"],
+      "additionalProperties": false
+    }
+  }
+}

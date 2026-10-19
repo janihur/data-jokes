@@ -1,0 +1,40 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.com/schemas/jokes-array.schema.json",
+  "title": "Dad jokes (array)",
+  "description": "Schema for jokes-array.json: an object wrapping an array of joke records.",
+  "type": "object",
+  "properties": {
+    "jokes": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/joke" }
+    }
+  },
+  "required": ["jokes"],
+  "additionalProperties": false,
+  "$defs": {
+    "joke": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "description": "Running number of the joke.",
+          "type": "integer",
+          "minimum": 1
+        },
+        "date": {
+          "description": "Date the joke was told (ISO 8601).",
+          "type": "string",
+          "format": "date",
+          "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+        },
+        "joke": {
+          "description": "The joke text.",
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "required": ["id", "date", "joke"],
+      "additionalProperties": false
+    }
+  }
+}

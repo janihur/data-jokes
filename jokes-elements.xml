@@ -1,0 +1,83 @@
+<?xml version='1.0' encoding='utf-8'?>
+<jokes>
+  <joke>
+    <id>1</id>
+    <date>2026-02-13</date>
+    <text>I told my wife she should embrace her mistakes. She gave me a hug.</text>
+  </joke>
+  <joke>
+    <id>2</id>
+    <date>2026-02-20</date>
+    <text>What did the big flower say to the little flower? "Hi, bud!"</text>
+  </joke>
+  <joke>
+    <id>3</id>
+    <date>2026-02-27</date>
+    <text>I went to buy some camouflage wear, but I couldn't find any.</text>
+  </joke>
+  <joke>
+    <id>4</id>
+    <date>2026-03-06</date>
+    <text>What did the grape say when it got stepped on? Nothing, it just let out a little wine.</text>
+  </joke>
+  <joke>
+    <id>5</id>
+    <date>2026-03-13</date>
+    <text>I used to have a job at a calendar factory, but I got fired because I took a couple of days off.</text>
+  </joke>
+  <joke>
+    <id>6</id>
+    <date>2026-03-20</date>
+    <text>Did you hear about the restaurant on the moon? Great food, no atmosphere!</text>
+  </joke>
+  <joke>
+    <id>7</id>
+    <date>2026-03-27</date>
+    <text>What did one wall say to the other wall? I'll meet you at the corner!</text>
+  </joke>
+  <joke>
+    <id>8</id>
+    <date>2026-04-10</date>
+    <text>What did one hat say to the other hat? You stay here, I'll go on ahead!</text>
+  </joke>
+  <joke>
+    <id>9</id>
+    <date>2026-04-17</date>
+    <text>Did you hear about the guy who got hit in the head with a can of soda? He was lucky it was a soft drink.</text>
+  </joke>
+  <joke>
+    <id>10</id>
+    <date>2026-04-24</date>
+    <text>I'm writing a book about glue, but I'm stuck on the first chapter.</text>
+  </joke>
+  <joke>
+    <id>11</id>
+    <date>2026-05-08</date>
+    <text>Stop looking for the perfect match; use a lighter.</text>
+  </joke>
+  <joke>
+    <id>12</id>
+    <date>2026-05-15</date>
+    <text>Did you hear the rumor about butter? Well, I'm not going to go spreading it!</text>
+  </joke>
+  <joke>
+    <id>13</id>
+    <date>2026-05-22</date>
+    <text>If two vegetarians get in an argument, is it still called beef?</text>
+  </joke>
+  <joke>
+    <id>14</id>
+    <date>2026-05-29</date>
+    <text>If a vegan crossfit fan is using Claude to write Rust, which thing do they tell you first?</text>
+  </joke>
+  <joke>
+    <id>15</id>
+    <date>2026-06-11</date>
+    <text>I have a clean conscience - it's never been used.</text>
+  </joke>
+  <joke>
+    <id>16</id>
+    <date>2026-08-21</date>
+    <text>I love telling Dad jokes. Sometimes, he even laughs.</text>
+  </joke>
+</jokes>

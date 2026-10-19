@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='utf-8'?>
+<jokes count="16">
+  <month value="2026-02">
+    <joke id="1" date="2026-02-13">I told my wife she should embrace her mistakes. She gave me a hug.</joke>
+    <joke id="2" date="2026-02-20">What did the big flower say to the little flower? "Hi, bud!"</joke>
+    <joke id="3" date="2026-02-27">I went to buy some camouflage wear, but I couldn't find any.</joke>
+  </month>
+  <month value="2026-03">
+    <joke id="4" date="2026-03-06">What did the grape say when it got stepped on? Nothing, it just let out a little wine.</joke>
+    <joke id="5" date="2026-03-13">I used to have a job at a calendar factory, but I got fired because I took a couple of days off.</joke>
+    <joke id="6" date="2026-03-20">Did you hear about the restaurant on the moon? Great food, no atmosphere!</joke>
+    <joke id="7" date="2026-03-27">What did one wall say to the other wall? I'll meet you at the corner!</joke>
+  </month>
+  <month value="2026-04">
+    <joke id="8" date="2026-04-10">What did one hat say to the other hat? You stay here, I'll go on ahead!</joke>
+    <joke id="9" date="2026-04-17">Did you hear about the guy who got hit in the head with a can of soda? He was lucky it was a soft drink.</joke>
+    <joke id="10" date="2026-04-24">I'm writing a book about glue, but I'm stuck on the first chapter.</joke>
+  </month>
+  <month value="2026-05">
+    <joke id="11" date="2026-05-08">Stop looking for the perfect match; use a lighter.</joke>
+    <joke id="12" date="2026-05-15">Did you hear the rumor about butter? Well, I'm not going to go spreading it!</joke>
+    <joke id="13" date="2026-05-22">If two vegetarians get in an argument, is it still called beef?</joke>
+    <joke id="14" date="2026-05-29">If a vegan crossfit fan is using Claude to write Rust, which thing do they tell you first?</joke>
+  </month>
+  <month value="2026-06">
+    <joke id="15" date="2026-06-11">I have a clean conscience - it's never been used.</joke>
+  </month>
+  <month value="2026-08">
+    <joke id="16" date="2026-08-21">I love telling Dad jokes. Sometimes, he even laughs.</joke>
+  </month>
+</jokes>
